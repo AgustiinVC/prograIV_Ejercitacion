@@ -1,0 +1,22 @@
+<header class="header">
+  <nav class="nav-container">
+    <a routerLink="/bienvenida" class="logo">TareasApp</a>
+
+    <div class="nav-links">
+      <a routerLink="/bienvenida" routerLinkActive="active-link" class="button-primary"
+        >Bienvenida</a
+      >
+      <a routerLink="/sobre-mi" routerLinkActive="active-link" class="button-secondary">Sobre Mí</a>
+      <!-- <a routerLink="/auth/perfil" routerLinkActive="active-link" class="button-primary">Mi Perfil</a> -->
+    </div>
+
+    <div class="nav-actions">
+      <a routerLink="/auth/login" class="button-primary">Iniciar Sesión</a>
+      <a routerLink="/auth/registro" class="button-secondary">Registrarse</a>
+    </div>
+  </nav>
+</header>
+
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>

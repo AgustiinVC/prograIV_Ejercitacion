@@ -1,0 +1,51 @@
+/* Contenedor principal para centrar la tarjeta */
+.welcome-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  min-height: 80vh;
+  background-color: var(--background);
+}
+
+/* La tarjeta de bienvenida */
+.welcome-card {
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid var(--primary);
+  padding: 50px 40px;
+  background-color: var(--secondary);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Botón de llamada a la acción */
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--accent);
+  color: var(--secondary);
+  border: 2px solid var(--primary);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+  box-shadow: var(--shadow-sm);
+  transform: translate(-2px, -2px);
+}

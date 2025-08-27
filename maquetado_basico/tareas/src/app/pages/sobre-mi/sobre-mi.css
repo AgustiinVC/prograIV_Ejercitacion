@@ -1,0 +1,54 @@
+/* Contenedor principal para centrar la tarjeta */
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+  min-height: 80vh;
+  background-color: var(--background);
+}
+
+/* La tarjeta de presentación */
+.about-card {
+  width: 100%;
+  max-width: 500px;
+  border: 2px solid var(--primary);
+  padding: 40px 30px;
+  background-color: var(--secondary);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 18px;
+  color: var(--accent-alt);
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.divider {
+  height: 2px;
+  width: 50px;
+  background-color: var(--primary);
+  margin: 0 auto 20px auto;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 1.7;
+}

@@ -1,0 +1,52 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 32px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 32px;
+}
+
+.nav-links a {
+  font-size: 1.25rem;
+  padding: 8px 16px;
+}
+
+.nav-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.button-primary,
+.button-secondary {
+  font-size: 1.1rem;
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+
+/* Centrar el contenido principal */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
